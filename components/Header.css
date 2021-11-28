@@ -1,0 +1,29 @@
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px 0;
+  font-size: 13px;
+}
+
+.main-nav .logo {
+  width: 110px;
+}
+
+.url {
+  display: flex;
+  padding: 0 10px;
+  padding-bottom: 2px;
+  margin-left: 20px;
+}
+
+.url a:hover {
+  border-bottom: 2px solid #262626;
+}
